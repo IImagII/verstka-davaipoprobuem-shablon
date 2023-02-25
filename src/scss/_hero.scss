@@ -1,0 +1,52 @@
+.section {
+   // .section__hero
+
+   &__hero {
+      background: linear-gradient(
+         252.91deg,
+         #e3e7f6 3.68%,
+         rgba(227, 231, 246, 0) 97.82%
+      );
+      padding: 7.75rem 0 12.5rem 0;
+   }
+}
+
+.hero {
+   // .hero__item
+   display: flex; // делаем чтобы разделить пополам наш контейнер
+   &__item {
+      flex: 0 1 50%; // так мы разделим пополам наш контейнер это 2 вариант
+      //  max-width: 570px; //можно так сделать контейнер а можно через flex 2 вариант
+   }
+
+   // .hero__item-title
+   &__item-title {
+      font-style: normal;
+      font-weight: 700;
+      font-size: 3rem;
+      line-height: 62px;
+      color: $blueColor;
+      margin-bottom: 32px;
+   }
+
+   // .hero__item-text
+   &__item-text {
+      font-style: normal;
+      font-weight: 400;
+      font-size: 22px;
+      line-height: 33px;
+      color: $grayColor;
+      margin-bottom: 20px;
+   }
+
+   // .hero__items-buttons
+   &__items-buttons {
+   }
+
+   // .hero__btn
+
+   &__btn {
+      margin-top: 20px;
+      margin-right: 10px;
+   }
+}

@@ -1,0 +1,22 @@
+// Container & Breakpoints
+@use 'sass:math';
+$containerWidth: 1108; //ширина контейнера
+$containerPadding: 40; //глобальные отступы чтобы неслипалось
+$containerSidePadding: math.div($containerPadding, 2);
+
+$breakpoint992: 991.98 + px;
+$breakpoint768: 767.98 + px;
+$breakpoint480: 479.98 + px;
+
+// Burger Menu
+$burgerBreakpoint: $breakpoint768;
+$burgerColor: 'black';
+$burgerActiveColor: 'black';
+
+//var color
+$btnColor: #bf0830;
+$blueColor: #1a2578;
+$grayColor: #484c63;
+$whiteColor: #fff;
+
+$fontMain: 'Europa';
